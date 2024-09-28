@@ -3,7 +3,6 @@
 import { useState } from "react"
 import { motion, Variants } from "framer-motion"
 import { Coffee, ArrowLeft } from "lucide-react"
-import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
 const menuCategories = [

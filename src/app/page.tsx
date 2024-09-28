@@ -2,11 +2,10 @@
 
 import { useState, useEffect } from "react"
 import { motion, useScroll, useTransform, Variants } from "framer-motion"
-import { Coffee, Menu as MenuIcon, X, Instagram, Facebook, Twitter, MapPin, Phone, Mail, Clock } from "lucide-react"
+import { Coffee, Menu as MenuIcon, X, Instagram, Facebook, Twitter, MapPin, Phone,  Clock } from "lucide-react"
 import { Button } from "../components/ui/button"
 import Link from "next/link"
 import Image from "next/image"
-import { p } from "framer-motion/client"
 
 export default function Home() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
